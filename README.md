@@ -1,6 +1,6 @@
 # Paired Outcome Diagnostics for Residual Robot-Policy Refinement: An Empirical Study
 
-Curated reproducibility dataset for the paired-outcome-diagnostics repository, version 1.0.0. This local candidate has not been uploaded or published. Project-produced data and metadata are licensed under CC BY 4.0; see LICENSE and CITATION.cff.
+Curated reproducibility dataset for the paired-outcome-diagnostics repository, version 1.0.0. This repository contains the frozen curated data package supporting the manuscript 'Paired Outcome Diagnostics for Residual Robot-Policy Refinement: An Empirical Study.' Project-produced data and metadata are licensed under CC BY 4.0; see LICENSE and CITATION.cff.
 
 ## Scope and contents
 
@@ -45,7 +45,7 @@ FILE_MANIFEST.json records original and candidate hashes without disclosing priv
 
 ## Reproducibility limits and release status
 
-Neither configurations nor release identities recover every historical optimizer, replay-buffer, RNG or simulator state. Undocumented Adam settings are not inferred. The data support a bounded audit of reported outcomes, not exact replay of all historical execution or upstream papers. This is a data-only release. No executable analysis, training or evaluation code is supplied. Project-produced data and metadata are licensed under CC BY 4.0. Original rights in referenced third-party software are not granted by this dataset license. No DOI or repository URL has been assigned to this local candidate. This repository contains the frozen curated data package supporting the manuscript. The released files were validated against the publication package and reported results using the supplied publication validation records. For a subset of curated artifacts, complete independent reconstruction of the historical upstream file lineage was not available; this does not affect the frozen reported values or the scope of the released dataset.
+Neither configurations nor release identities recover every historical optimizer, replay-buffer, RNG or simulator state. Undocumented Adam settings are not inferred. The data support a bounded audit of reported outcomes, not exact replay of all historical execution or upstream papers. This is a data-only release. No executable analysis, training or evaluation code is supplied. Project-produced data and metadata are licensed under CC BY 4.0. Original rights in referenced third-party software are not granted by this dataset license. Repository: https://github.com/Hvenbko/paired-outcome-diagnostics. This repository contains the frozen curated data package supporting the manuscript. The released files were validated against the publication package and reported results using the supplied publication validation records. For a subset of curated artifacts, complete independent reconstruction of the historical upstream file lineage was not available; this does not affect the frozen reported values or the scope of the released dataset.
 
 ## Main tables
 
