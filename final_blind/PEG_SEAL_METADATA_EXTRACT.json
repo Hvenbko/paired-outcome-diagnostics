@@ -1,0 +1,134 @@
+{
+  "notice": "本次从原件提取的摘录，不是完整原件，也不是新生成的历史封存证明。",
+  "extracted_at_utc": "2026-10-02T07:11:27.804539+00:00",
+  "allowed_sources": [
+    {
+      "path": "ARCHIVED_ID:r9_foundation_20260928/B/FINAL_BLIND_MANIFEST.json",
+      "sha256": "890316c74246a312b76681be0ab15fb342144e8f7c66b6b05eb3e5e06bcc86a3"
+    },
+    {
+      "path": "ARCHIVED_ID:r9_foundation_20260928/FROZEN_PLAN.json",
+      "sha256": "64abb3b9bf50f57a55c7ce8afce3c32a159477cde13f00b4d326490348b68ac0"
+    }
+  ],
+  "extracted_items": [
+    {
+      "source_absolute_path": "ARCHIVED_ID:r9_foundation_20260928/B/FINAL_BLIND_MANIFEST.json",
+      "source_file_sha256": "890316c74246a312b76681be0ab15fb342144e8f7c66b6b05eb3e5e06bcc86a3",
+      "json_pointer": "/sealed_at",
+      "original_value": 1790580629.3176324,
+      "original_json_type": "number",
+      "scope": "共享通用：顶层封存时间，非Peg专用",
+      "time_unit": "Unix epoch seconds; fractional seconds retained in original value",
+      "utc_conversion_this_extraction": "2026-09-28T07:30:29.317632+00:00",
+      "unit_note": "Epoch-seconds interpretation; the original scalar has no separate unit field."
+    },
+    {
+      "source_absolute_path": "ARCHIVED_ID:r9_foundation_20260928/B/FINAL_BLIND_MANIFEST.json",
+      "source_file_sha256": "890316c74246a312b76681be0ab15fb342144e8f7c66b6b05eb3e5e06bcc86a3",
+      "json_pointer": "/plan_sha256",
+      "original_value": "64abb3b9bf50f57a55c7ce8afce3c32a159477cde13f00b4d326490348b68ac0",
+      "original_json_type": "string",
+      "scope": "共享通用：封存记录的计划身份"
+    },
+    {
+      "source_absolute_path": "ARCHIVED_ID:r9_foundation_20260928/B/FINAL_BLIND_MANIFEST.json",
+      "source_file_sha256": "890316c74246a312b76681be0ab15fb342144e8f7c66b6b05eb3e5e06bcc86a3",
+      "json_pointer": "/sets/peg/name",
+      "original_value": "FINAL_BLIND_PEG_V1",
+      "original_json_type": "string",
+      "scope": "Peg专用"
+    },
+    {
+      "source_absolute_path": "ARCHIVED_ID:r9_foundation_20260928/B/FINAL_BLIND_MANIFEST.json",
+      "source_file_sha256": "890316c74246a312b76681be0ab15fb342144e8f7c66b6b05eb3e5e06bcc86a3",
+      "json_pointer": "/sets/peg/count",
+      "original_value": 200,
+      "original_json_type": "number",
+      "scope": "Peg专用"
+    },
+    {
+      "source_absolute_path": "ARCHIVED_ID:r9_foundation_20260928/B/FINAL_BLIND_MANIFEST.json",
+      "source_file_sha256": "890316c74246a312b76681be0ab15fb342144e8f7c66b6b05eb3e5e06bcc86a3",
+      "json_pointer": "/sets/peg/manifest",
+      "original_value": "ARCHIVED_ID:r9_foundation_20260928/B/peg/manifest.json",
+      "original_json_type": "string",
+      "scope": "Peg专用"
+    },
+    {
+      "source_absolute_path": "ARCHIVED_ID:r9_foundation_20260928/B/FINAL_BLIND_MANIFEST.json",
+      "source_file_sha256": "890316c74246a312b76681be0ab15fb342144e8f7c66b6b05eb3e5e06bcc86a3",
+      "json_pointer": "/sets/peg/sha256",
+      "original_value": "84c32570a25d4fa3074e7249be1a3bf3b1b5441fdb8f1ae100833c704db1f0bc",
+      "original_json_type": "string",
+      "scope": "Peg专用"
+    },
+    {
+      "source_absolute_path": "ARCHIVED_ID:r9_foundation_20260928/FROZEN_PLAN.json",
+      "source_file_sha256": "64abb3b9bf50f57a55c7ce8afce3c32a159477cde13f00b4d326490348b68ac0",
+      "json_pointer": "/created_at",
+      "original_value": 1790580323.6849387,
+      "original_json_type": "number",
+      "scope": "共享通用：计划创建时间，非Peg专用",
+      "time_unit": "Unix epoch seconds; fractional seconds retained in original value",
+      "utc_conversion_this_extraction": "2026-09-28T07:25:23.684939+00:00",
+      "unit_note": "Epoch-seconds interpretation; the original scalar has no separate unit field."
+    }
+  ],
+  "authorized_structured_excerpt": {
+    "seal": {
+      "sealed_at": 1790580629.3176324,
+      "plan_sha256": "64abb3b9bf50f57a55c7ce8afce3c32a159477cde13f00b4d326490348b68ac0",
+      "sets": {
+        "peg": {
+          "name": "FINAL_BLIND_PEG_V1",
+          "count": 200,
+          "manifest": "ARCHIVED_ID:r9_foundation_20260928/B/peg/manifest.json",
+          "sha256": "84c32570a25d4fa3074e7249be1a3bf3b1b5441fdb8f1ae100833c704db1f0bc"
+        }
+      }
+    },
+    "plan": {
+      "created_at": 1790580323.6849387
+    }
+  },
+  "identity_checks": {
+    "seal_peg_manifest_matches_author_supplied_hash": true,
+    "actual_plan_hash_matches_author_supplied_Peg_manifest_plan_reference": true,
+    "seal_plan_hash_matches_actual_plan_file": true,
+    "plan_created_before_shared_seal": true,
+    "linkage_scope": "同一封存记录的顶层sealed_at与/sets/peg/sha256连接该Peg manifest；这是共享封存时间，不是独立Peg时间。Peg manifest此前所报plan_sha256由作者提供，本轮未重新打开Peg manifest。"
+  },
+  "time_comparison": [
+    {
+      "event": "noise_mapping_amendment",
+      "utc": "2026-09-30T07:09:19.433110+00:00",
+      "evidence_source": "author-provided existing-record timestamp; not re-read this extraction",
+      "shared_seal_precedes_event": true
+    },
+    {
+      "event": "FP_gt_PF_config_created_at",
+      "utc": "2026-09-30T07:15:40.775644+00:00",
+      "evidence_source": "author-provided existing-record timestamp; not re-read this extraction",
+      "shared_seal_precedes_event": true
+    },
+    {
+      "event": "first_worker_launch",
+      "utc": "2026-09-30T07:16:05.284607+00:00",
+      "evidence_source": "author-provided existing-record timestamp; not re-read this extraction",
+      "shared_seal_precedes_event": true
+    },
+    {
+      "event": "first_episode_attempt",
+      "utc": "2026-09-30T07:16:22.763190+00:00",
+      "evidence_source": "author-provided existing-record timestamp; not re-read this extraction",
+      "shared_seal_precedes_event": true
+    }
+  ],
+  "limits": [
+    "原件整体SHA仅用于标识来源；不能凭删节摘录重算原件整体SHA。",
+    "无密码学时间签名验证；原字段为历史记录时间，不以当前mtime代替。",
+    "精确首次policy forward与首次outcome access时间仍未确认；不以worker或episode启动时间替代。",
+    "没有读取引用文件或回传Square字段值、状态、结果或评价数据；没有实验、模型加载、环境调用或统计重算。"
+  ]
+}

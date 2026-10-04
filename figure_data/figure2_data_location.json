@@ -1,0 +1,7 @@
+{
+  "figure": 2,
+  "data_file": "data/PEG_A.csv",
+  "path_base": "archive root",
+  "sha256": "30b087f1b6f7d09a10ff31689a7e1c693d23fa60b8b834245e4dcdc87f9a955a",
+  "description": "The complete original figure CSV is byte-identical to this data file; stored once to avoid duplicate copies."
+}

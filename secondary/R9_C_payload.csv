@@ -1,0 +1,5 @@
+cell,successes,n,clusters,success_rate,cluster_CI,failures,termination_types,success_control_steps_mean,success_post_anchor_controls_mean
+B0,15,96,24,0.15625,"[0.03125, 0.3125]",81,"{'success': 15, 'terminated': 0, 'timeout': 81}",128.6,28.6
+B4,16,96,24,0.16666666666666666,"[0.041666666666666664, 0.3333333333333333]",80,"{'success': 16, 'terminated': 0, 'timeout': 80}",147.5,47.5
+R0,16,96,24,0.16666666666666666,"[0.041666666666666664, 0.3333333333333333]",80,"{'success': 16, 'terminated': 0, 'timeout': 80}",127.4375,27.4375
+R4,16,96,24,0.16666666666666666,"[0.041666666666666664, 0.3333333333333333]",80,"{'success': 16, 'terminated': 0, 'timeout': 80}",127.25,27.25

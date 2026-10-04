@@ -1,0 +1,322 @@
+[
+  {
+    "index": 0,
+    "initial_id": 0,
+    "env_seed": 2390585437,
+    "fingerprint": "193190d444fb74fe111ad68efc6a7fc0c27d97e1d4c1efe8ec4cb6aed89b1cd6",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 1,
+    "initial_id": 1,
+    "env_seed": 3486937427,
+    "fingerprint": "3cfe49256b1367352ba857e95a0ef3cfb0e5ad200efdeb0bc01c75d3d6fd0780",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 2,
+    "initial_id": 2,
+    "env_seed": 3625465792,
+    "fingerprint": "524677b040d83b6653e00197a7603b8ee48baae7522f0760c9cbae44414f123d",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 3,
+    "initial_id": 3,
+    "env_seed": 3085173909,
+    "fingerprint": "a276b601381c5f48e514498547bd31888c89896d0d6486d720639e9ebd9a70fb",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 4,
+    "initial_id": 4,
+    "env_seed": 2057976325,
+    "fingerprint": "d9004ddc70aacf3a96b4324cd87c82ef665b1a4efd398f448dff01fb9e21ca28",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 5,
+    "initial_id": 5,
+    "env_seed": 2838055916,
+    "fingerprint": "5fa669365e6f80c1883440153d4f79cc2880279cd6deb9783198d512c428d636",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 6,
+    "initial_id": 6,
+    "env_seed": 4208083933,
+    "fingerprint": "c8d9e25be519acc66ce8c0ab21ccc34dd654be26af30f59ee51819b5e323961b",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 7,
+    "initial_id": 7,
+    "env_seed": 2521310887,
+    "fingerprint": "6372114576a35974149500f0d2c9f9696f0338e74765b8b4d9c7f5da3aa9ac18",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 8,
+    "initial_id": 8,
+    "env_seed": 2849284580,
+    "fingerprint": "4d132a70a792227395f00b54850253879082c3b18544a915087979e80524b577",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 9,
+    "initial_id": 9,
+    "env_seed": 3312407405,
+    "fingerprint": "7fb3171bab7ad40f40ff61285e31631b7a127c5ec057e16887d70247a7c14cad",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 10,
+    "initial_id": 10,
+    "env_seed": 1873091213,
+    "fingerprint": "77aa2debd947013ce0f18de29d889ffd5decd9b170ba24bd6a919c2c62b67b37",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 11,
+    "initial_id": 11,
+    "env_seed": 1505374442,
+    "fingerprint": "e9a8c1219ca546c779e8edf34f7b59ff1ec60947fd3eeaf567aa4a85db2e22f3",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 12,
+    "initial_id": 12,
+    "env_seed": 3383792628,
+    "fingerprint": "003f2a36bcca3b0e6ceadcab9278102079427c47a3e619345f450aa66a5d2df0",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 13,
+    "initial_id": 13,
+    "env_seed": 2606707228,
+    "fingerprint": "188a030dfd34924403a3d821e5bffd54db41951c32d0e9948d4970d0de64c816",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 14,
+    "initial_id": 14,
+    "env_seed": 1894758843,
+    "fingerprint": "68fc56a1b7c6ac53bca7ccfcdcdb64782518139af16807551f1d7b0c5eb75c16",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 15,
+    "initial_id": 15,
+    "env_seed": 5050759,
+    "fingerprint": "f4ad341618415d5cddcf649c6e91d996d81e400cb43416ded9fca311c3102953",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 16,
+    "initial_id": 16,
+    "env_seed": 4066404722,
+    "fingerprint": "5e913f8a383f6071ed8dd808b073cc17f65daedb1df8bfe24847291d48a02962",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 17,
+    "initial_id": 17,
+    "env_seed": 2593440639,
+    "fingerprint": "637dcdfc41ee0c913ad5775d65477eb8ea9a8416aa28dc2482ca5f7b4f38590c",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 18,
+    "initial_id": 18,
+    "env_seed": 349887093,
+    "fingerprint": "9b71efe9451845a1fa9cc8301327d2e220e564293e89b48330832d60ffe29f9e",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 19,
+    "initial_id": 19,
+    "env_seed": 966203347,
+    "fingerprint": "6c99190c24084a1d981e200ac152be8117dfdcaf73f0d2e84cdeef7bb169cd11",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 20,
+    "initial_id": 20,
+    "env_seed": 3135571234,
+    "fingerprint": "247a39ce2ffe71de804d3ee3b7b1c0ee57e0e08f7ad2eefd7ce71f43efad61f4",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 21,
+    "initial_id": 21,
+    "env_seed": 3980418953,
+    "fingerprint": "d3d61ce4e84194768b81315391ba1f6bd5dc1c0e21f28c39aefe6ee0902803ba",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 22,
+    "initial_id": 22,
+    "env_seed": 4150846924,
+    "fingerprint": "cf4028471ec79f317a6aaf94503485ae034fba99b99cee678787606fac8d0553",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 23,
+    "initial_id": 23,
+    "env_seed": 3461119398,
+    "fingerprint": "2b3bea129d538ce50dbc80b81292e6e39fb1ade231e8762763848a3ecd0c6d8a",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 24,
+    "initial_id": 24,
+    "env_seed": 3834706077,
+    "fingerprint": "0483105930ef5a131dc5616b115aef564a702eaf1bdc8592afe1f8dd3281418b",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 25,
+    "initial_id": 25,
+    "env_seed": 3714099041,
+    "fingerprint": "bce88c5872075817adae5dc39156f60e925ebfe018e29d5fc00fcba3ea182e05",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 26,
+    "initial_id": 26,
+    "env_seed": 861084632,
+    "fingerprint": "65cef41d367c33477d94792d7e3a0e0b83e77d9fee9b4b11a3a4ab1b7b18e664",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 27,
+    "initial_id": 27,
+    "env_seed": 3476381742,
+    "fingerprint": "4d7fddb1aafd48dfe731ee21eefc602a8f7846061a087a049e472d0a1d733ebe",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 28,
+    "initial_id": 28,
+    "env_seed": 538434276,
+    "fingerprint": "d53098c55a5f46646c2c0adcd054c2c1b60e276f144396a67bc12a423d238778",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 29,
+    "initial_id": 29,
+    "env_seed": 3989770127,
+    "fingerprint": "bca9249c6aaa6ff60ff6b9a450c03750164d9cc486ce501ba777e5e510aacff1",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 30,
+    "initial_id": 30,
+    "env_seed": 4061978561,
+    "fingerprint": "3566511418b8ecca111750adff4b01273bed3cc518bb2a5edd11b4ec1157d554",
+    "repeats": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 31,
+    "initial_id": 31,
+    "env_seed": 1049001679,
+    "fingerprint": "d313a5ef90a6474f713a45d9e19f477359be805b5a695970fe7534ee1663d2bb",
+    "repeats": [
+      0,
+      1
+    ]
+  }
+]

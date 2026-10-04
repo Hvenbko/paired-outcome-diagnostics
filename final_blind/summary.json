@@ -1,0 +1,126 @@
+{
+  "classification": "FINAL_BLIND_STRONG_SUPPORT",
+  "base_successes": 141,
+  "base_failures": 59,
+  "base_SR": 0.705,
+  "base_SR_CI95": [
+    0.6365768666820895,
+    0.7672312157768753
+  ],
+  "per_seed": [
+    {
+      "seed": 1,
+      "PP": 140,
+      "PF": 1,
+      "FP": 57,
+      "FF": 2,
+      "successes": 197,
+      "NetGain": 56,
+      "DeltaSR": 0.28,
+      "primary_pass": true,
+      "Preservation": 0.9929078014184397,
+      "Preservation_CI95": [
+        0.9611194863285075,
+        0.9998204571978639
+      ],
+      "Corruption": 0.0070921985815602835,
+      "Corruption_CI95": [
+        0.00017954280213601268,
+        0.03888051367149244
+      ],
+      "Rescue": 0.9661016949152542,
+      "Rescue_CI95": [
+        0.8828515361116068,
+        0.9958680670276348
+      ],
+      "Unresolved": 0.03389830508474576,
+      "Unresolved_CI95": [
+        0.004131932972365215,
+        0.11714846388839315
+      ],
+      "SR": 0.985,
+      "SR_CI95": [
+        0.9567917180822874,
+        0.9968958923784464
+      ],
+      "exact_mcnemar_p": 4.0939474033052647e-16
+    },
+    {
+      "seed": 2,
+      "PP": 141,
+      "PF": 0,
+      "FP": 57,
+      "FF": 2,
+      "successes": 198,
+      "NetGain": 57,
+      "DeltaSR": 0.285,
+      "primary_pass": true,
+      "Preservation": 1.0,
+      "Preservation_CI95": [
+        0.9741770013361344,
+        1.0
+      ],
+      "Corruption": 0.0,
+      "Corruption_CI95": [
+        0.0,
+        0.025822998663865577
+      ],
+      "Rescue": 0.9661016949152542,
+      "Rescue_CI95": [
+        0.8828515361116068,
+        0.9958680670276348
+      ],
+      "Unresolved": 0.03389830508474576,
+      "Unresolved_CI95": [
+        0.004131932972365215,
+        0.11714846388839315
+      ],
+      "SR": 0.99,
+      "SR_CI95": [
+        0.9643453316027603,
+        0.998786650986264
+      ],
+      "exact_mcnemar_p": 1.3877787807814457e-17
+    },
+    {
+      "seed": 3,
+      "PP": 140,
+      "PF": 1,
+      "FP": 58,
+      "FF": 1,
+      "successes": 198,
+      "NetGain": 57,
+      "DeltaSR": 0.285,
+      "primary_pass": true,
+      "Preservation": 0.9929078014184397,
+      "Preservation_CI95": [
+        0.9611194863285075,
+        0.9998204571978639
+      ],
+      "Corruption": 0.0070921985815602835,
+      "Corruption_CI95": [
+        0.00017954280213601268,
+        0.03888051367149244
+      ],
+      "Rescue": 0.9830508474576272,
+      "Rescue_CI95": [
+        0.9091440671133507,
+        0.9995709766672765
+      ],
+      "Unresolved": 0.01694915254237288,
+      "Unresolved_CI95": [
+        0.0004290233327235946,
+        0.09085593288664927
+      ],
+      "SR": 0.99,
+      "SR_CI95": [
+        0.9643453316027603,
+        0.998786650986264
+      ],
+      "exact_mcnemar_p": 2.0816681711721685e-16
+    }
+  ],
+  "episodes": 800,
+  "secondary_label": "SECONDARY_STATISTICAL_EVIDENCE",
+  "protocol_integrity": "NO_POST_UNBLIND_SELECTION_OR_PROTOCOL_CHANGE"
+}

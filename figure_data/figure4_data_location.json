@@ -1,0 +1,7 @@
+{
+  "figure": 4,
+  "data_file": "data/STACK_LONG.csv",
+  "path_base": "archive root",
+  "sha256": "e6dbae25e8fdbb5b7d902540fe73098be6b261c20f702f968316641c94b3bfc7",
+  "description": "The complete original figure CSV is byte-identical to this data file; stored once to avoid duplicate copies."
+}

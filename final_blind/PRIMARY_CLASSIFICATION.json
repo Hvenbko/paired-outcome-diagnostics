@@ -1,0 +1,41 @@
+{
+  "classification": "FINAL_BLIND_STRONG_SUPPORT",
+  "passes": 3,
+  "per_seed": [
+    {
+      "seed": 1,
+      "PP": 140,
+      "PF": 1,
+      "FP": 57,
+      "FF": 2,
+      "successes": 197,
+      "NetGain": 56,
+      "DeltaSR": 0.28,
+      "primary_pass": true
+    },
+    {
+      "seed": 2,
+      "PP": 141,
+      "PF": 0,
+      "FP": 57,
+      "FF": 2,
+      "successes": 198,
+      "NetGain": 57,
+      "DeltaSR": 0.285,
+      "primary_pass": true
+    },
+    {
+      "seed": 3,
+      "PP": 140,
+      "PF": 1,
+      "FP": 58,
+      "FF": 1,
+      "successes": 198,
+      "NetGain": 57,
+      "DeltaSR": 0.285,
+      "primary_pass": true
+    }
+  ],
+  "computed_before_secondary": true,
+  "time": 1790754237.890294
+}

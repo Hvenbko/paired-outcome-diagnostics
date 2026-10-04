@@ -1,0 +1,30 @@
+{
+  "status": "FINAL_BLIND_NOISE_MAP_VERIFIED",
+  "amendment": "POST_SEAL_PRE_OUTCOME_CONFIGURATION_AMENDMENT",
+  "generated_at_utc": "2026-09-30T07:09:19.433110+00:00",
+  "manifest_sha256": "84c32570a25d4fa3074e7249be1a3bf3b1b5441fdb8f1ae100833c704db1f0bc",
+  "manifest_accessed": false,
+  "prefix": "FINAL_BLIND_PEG_V1|84c32570a25d4fa3074e7249be1a3bf3b1b5441fdb8f1ae100833c704db1f0bc|DP_NOISE_V1|",
+  "exact_formula": "H_i = int(SHA256(UTF8(prefix + decimal(i))).hexdigest(), 16); seed_i = 1 + (H_i mod (2^31 - 2)); i = 0..199",
+  "index_semantics": "Existing manifest order; no state reads or reordering",
+  "mapping_path": "ARCHIVED_ID:final_blind_peg_noise_map_v1_20260930/FINAL_BLIND_PEG_DP_NOISE_MAP_V1.csv",
+  "mapping_sha256": "469c13861733c5b3e591db92c29f4704b919784a21483bec2a59459e19ddbb4d",
+  "script_path": "ARCHIVED_ID:final_blind_peg_noise_map_v1_20260930/generate_noise_map.py",
+  "script_sha256": "f3e425af0096e9e7dc9187832942be62b07765e57912acc04d36a372aa0d12d6",
+  "checks": {
+    "row_count_200": true,
+    "indices_exact_0_199": true,
+    "unique_200": true,
+    "range_valid": true
+  },
+  "unique_seed_count": 200,
+  "observed_seed_min": 4814460,
+  "observed_seed_max": 2147432136,
+  "pairing": "Same seed_i for Base and R1b seed1/seed2/seed3 at 500032; seed once per episode, then PEG_A sequential sampling; no per-decision reseeding",
+  "collision_rule": "Any duplicate: STOP — NO ROLLOUT; no formula change",
+  "blind_state_reads": 0,
+  "blind_outcome_reads": 0,
+  "policy_forwards": 0,
+  "rollouts": 0,
+  "evaluation_authorized_this_stage": false
+}

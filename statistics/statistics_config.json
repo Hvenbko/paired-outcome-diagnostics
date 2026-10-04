@@ -1,0 +1,35 @@
+{
+  "evidence": "SECONDARY_STATISTICAL_EVIDENCE",
+  "confidence_level": 0.95,
+  "binomial_interval": "two-sided equal-tailed exact Clopper-Pearson; beta quantiles; boundary limits 0 and 1",
+  "paired_test": "two-sided exact conditional binomial McNemar; FP | PF+FP ~ Binomial(discordants,0.5); discordants=0 -> p=1",
+  "p_adjustment": "none; pointwise secondary p-values, no multiplicity-controlled confirmatory interpretation",
+  "bootstrap": {
+    "seed": 2026093001,
+    "bit_generator": "PCG64",
+    "api": "numpy.random.default_rng",
+    "resamples": 10000,
+    "unit": "physical initial state",
+    "clusters": 32,
+    "repeats_per_cluster": 2,
+    "draw": "32 clusters uniformly with replacement per resample",
+    "indices": "shared across all 15 seed/checkpoint rows, preserving both repeats and all policies",
+    "cluster_order": "ascending initial_id; validate unique physical fingerprint and env_seed",
+    "interval": "percentile [0.025,0.975], numpy.quantile method=linear",
+    "conditional_denominators": "recompute Base successes/failures in every resample",
+    "zero_denominator": "exclude that resample only for undefined metric; record valid/invalid counts, never redraw",
+    "degenerate_interval": "reported without pretending population certainty"
+  },
+  "primary_classifications": {
+    "study_A": "HELDOUT_STRONG_CONFIRMATION",
+    "study_B": "AUTHORITY_REPLICATED",
+    "stackcube": "NOT_REPLICATED"
+  },
+  "versions": {
+    "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+    "numpy": "1.23.5",
+    "scipy": "1.15.3"
+  },
+  "script_sha256": "22e2b706c2dba11d90519c4c88b3229433ce493aa03349b3222d66a97cac1720",
+  "restrictions": "CPU only; no model/env import, rollout, training, checkpoint change, or final blind access"
+}

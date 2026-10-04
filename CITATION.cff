@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use these data, please cite this dataset.
+type: dataset
+title: 'Paired Outcome Diagnostics for Residual Robot-Policy Refinement: Reproducibility
+  Data'
+authors:
+- given-names: Bin
+  family-names: Ren
+- given-names: Shushan
+  family-names: He
+- given-names: Jintao
+  family-names: Li
+- given-names: Haotao
+  family-names: Chen
+- given-names: Yachao
+  family-names: Liu
+- given-names: Chunhong
+  family-names: He
+version: 1.0.0
+license: CC-BY-4.0
