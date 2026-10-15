@@ -17,19 +17,20 @@ The first letter is the base outcome and the second is the refined outcome: P me
 | Paper / Supplement | Files | Role and limit |
 |---|---|---|
 | Definitions; Figure 1; S1–S2 | This README; statistics/ | Figure 1 is conceptual; recorded DEV resampling config/indices support provenance, not executable bootstrap replay by themselves |
+| Simulated manipulation environments; Figure 2 | No experimental-result data file; illustrative scene images are in the manuscript | PegInsertionSide and StackCube task overviews and closer camera views of the same initial simulator state; these are illustrative environment renders, not experimental-result data plots or recorded policy rollouts |
 | Longitudinal Peg; S1–S2 | data/PEG_DEV.csv; data/R1B_MULTISEED_PAIRWISE.csv | Development set: 32 physical initial states, two repeats; three existing training seeds, five checkpoints; conditional cluster bootstrap outputs |
 | Mature historical Peg; S3 | data/PEG_MATURE200.csv | Historical mature setting: 100 physical states with two repeats, 200 episodes, base 156/200; keep separate from both new-set and sealed evaluations |
-| New-evaluation-set longitudinal Peg; Figure 2; S4 | data/PEG_A.csv | Study A, 200 states; existing seeds; base 141/200; archived descriptive/statistical columns |
-| Authority; Figure 3; S5 | data/AUTHORITY.csv; figure_data/figure3_residual_authority_data.csv | Discovery seed 2 and confirmation seeds 1/3 share one 100-state set, base 68/100; six authority scales; Figure 3 is its archived display subset |
-| StackCube boundary; Figure 4; S6 | data/STACK_LONG.csv | BeT base, 200 states, base 150/200; single-control transition budgets differ from Peg action blocks |
-| Final sealed endpoint; S7 | final_blind/ | FINAL_BLIND_PEG_V1: distinct sealed 200-state set, base 141/200, mature 500032 checkpoints; existing seeds, not new training replications |
+| New-evaluation-set longitudinal Peg; Figure 3; S4 | data/PEG_A.csv | Study A, 200 states; existing seeds; base 141/200; archived descriptive/statistical columns |
+| Authority; Figure 4; S5 | data/AUTHORITY.csv; figure_data/figure3_residual_authority_data.csv | Discovery seed 2 and confirmation seeds 1/3 share one 100-state set, base 68/100; six authority scales; the archived authority figure-data file is its display subset |
+| StackCube boundary and mature Peg reference; Figure 5; S4, S6 | data/STACK_LONG.csv; data/PEG_A.csv | BeT base, 200 states, base 150/200; single-control transition budgets differ from Peg action blocks; Figure 5(a) uses STACK_LONG, and Figure 5(b) uses the mature PEG_A rows at actual_step=500032 as a descriptive reference |
+| Final sealed endpoint; Figure 6; S7 | final_blind/ | FINAL_BLIND_PEG_V1: distinct sealed 200-state set, base 141/200, mature 500032 checkpoints; existing seeds, not new training replications |
 | Policy Decorator; S8 | secondary/R2_payload.csv | Bounded local comparison, not longer-budget upstream replication |
 | Local DICE; S9 | secondary/R4B_payload.csv; secondary/R4B_CONTRASTS_payload.csv; secondary/R9_C_payload.csv | Selected local variant results; R4A remains in the scientific Supplement but its file is excluded here |
 | Secondary diagnostics; S10 | secondary/R5_payload.csv, R6A_payload.csv, R6B_payload.csv, R7_payload.csv | Existing diagnostic payloads; retain the Supplement's bounded interpretation |
 | Unevaluated settings; S11 | No task assets supplied | No implication of zero success or scientific failure for tasks never evaluated |
 | Configuration/provenance; S12 | configuration/; final_blind/FROZEN_CONFIG.json | Three Peg and three StackCube seed configs, software freeze, final evaluation config; source-level historical evidence, not exact runtime replay |
 
-Figure 2 CSV bytes are exactly data/PEG_A.csv; Figure 4 CSV bytes are exactly data/STACK_LONG.csv. The figure_data/figure2_data_location.json and figure4_data_location.json descriptors identify these files and their hashes without duplicating the CSVs. Figure 3 retains the archived display subset; the full grid is data/AUTHORITY.csv. Do not merge PEG_A and FINAL_BLIND_PEG_V1 because both happen to have base 141/200.
+In the final 18-page manuscript, Figure 2 illustrates the simulated environments and is not an experimental-result data plot. Figure 3 uses data/PEG_A.csv; Figure 5(a) uses data/STACK_LONG.csv, and Figure 5(b) uses the mature PEG_A reference rows. The figure_data/figure2_data_location.json and figure4_data_location.json descriptors identify the PEG_A and STACK_LONG CSV files and their hashes without duplicating the CSVs. Figure 4 uses the archived display subset in figure_data/figure3_residual_authority_data.csv; the full grid is data/AUTHORITY.csv. Figure 6 uses final_blind/paired_statistics.csv and final_blind/summary.json. Historical figure_data/ filenames and identifiers retain their release-era names for provenance and do not represent the latest manuscript figure numbers; no files have been renamed. Do not merge PEG_A and FINAL_BLIND_PEG_V1 because both happen to have base 141/200.
 
 ## Reading and checking the outputs
 
